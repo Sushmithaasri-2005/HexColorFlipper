@@ -1,1 +1,29 @@
-
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, cursive;
+}
+#header
+{
+    color: black;
+    font-size: larger;
+    text-decoration: solid;
+}
+#header span
+{
+    float: right;
+}
+#background
+{
+    width:100vw;
+    height: 85vh;
+    display:flex;
+    justify-content: center;
+}
+#button button
+{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 2px;
+    height: 30px;
+    margin-top: 10px;
+}
